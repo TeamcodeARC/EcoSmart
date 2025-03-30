@@ -1,0 +1,354 @@
+.dashboard {
+  background: var(--bg-secondary);
+  padding: var(--spacing-lg);
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.dashboard-item {
+  background: var(--bg-secondary);
+  backdrop-filter: blur(5px);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  transition: var(--transition-normal);
+  border: 1px solid var(--border-color);
+}
+
+.dashboard-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.metric-value {
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  color: var(--primary);
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+.trend {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: var(--font-size-sm);
+}
+
+.trend.positive {
+  background: rgba(52, 168, 83, 0.1);
+  color: var(--success);
+}
+
+.trend.negative {
+  background: rgba(220, 53, 69, 0.1);
+  color: var(--danger);
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dashboard-page {
+  position: relative;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 1;
+}
+
+.dashboard-content {
+  position: relative;
+  z-index: 1001; /* Higher than floating icons */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+  background: transparent;
+}
+
+.dashboard-title {
+  font-size: var(--font-size-xl);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.dashboard-card {
+  position: relative;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: var(--spacing-md);
+  box-shadow: 0 4px 6px var(--shadow-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+}
+
+.dashboard-card.large {
+  grid-column: span 2;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-secondary);
+  padding: 2rem;
+  position: relative;
+  border: 1px solid var(--border-color);
+}
+
+.recharts-area-animation {
+  transition: all 0.8s ease-in-out;
+}
+
+.recharts-line-animation {
+  transition: all 0.8s ease-in-out;
+}
+
+/* Water Usage Chart Specific Styles */
+.chart-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-secondary);
+  padding: 2rem;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+}
+
+.metric-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: 1.5rem;
+}
+
+.metric-icon {
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--bg-primary);
+  transition: transform 0.3s ease;
+  color: var(--primary);
+}
+
+.metric-icon.energy {
+  color: var(--primary);
+}
+
+.metric-icon.water {
+  color: var(--secondary-blue);
+}
+
+.dashboard-card:hover .metric-icon {
+  transform: scale(1.1);
+}
+
+.metric-value {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin: var(--spacing-xs) 0;
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+.metric-trend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-sm);
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.metric-trend.positive {
+  background: rgba(52, 168, 83, 0.1);
+  color: var(--success);
+}
+
+.metric-trend.negative {
+  background: rgba(220, 53, 69, 0.1);
+  color: var(--danger);
+}
+
+@media (max-width: 1200px) {
+  .dashboard-card.large {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: var(--spacing-md);
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Chart Customization */
+.recharts-tooltip-wrapper {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.recharts-default-tooltip {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  padding: var(--spacing-sm) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  color: var(--text-primary) !important;
+}
+
+.recharts-tooltip-label {
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.recharts-tooltip-item {
+  color: var(--text-secondary) !important;
+  padding: 4px 0 !important;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.chart-icon {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--bg-primary);
+  transition: transform 0.3s ease;
+}
+
+.chart-icon.energy {
+  color: var(--primary);
+  background: rgba(42, 157, 143, 0.1);
+}
+
+.chart-icon.water {
+  color: var(--secondary-blue);
+  background: rgba(66, 153, 225, 0.1);
+}
+
+.dashboard-card:hover .chart-icon {
+  transform: scale(1.1);
+}
+
+.chart-header h2 {
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.alert-ticker {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+}
+
+.alert-message {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-align: center;
+  padding: 8px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 300px;
+  background: var(--bg-secondary);
+  box-shadow: 2px 0 8px var(--shadow-color);
+  z-index: 1000;
+  padding: var(--spacing-md);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.filter-section {
+  margin-bottom: var(--spacing-lg);
+}
+
+.sensor-icons {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+.sensor-icon {
+  padding: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.sensor-icon.water {
+  background: rgba(66, 153, 225, 0.1);
+  color: var(--secondary-blue);
+}
+
+.sensor-icon.energy {
+  background: rgba(42, 157, 143, 0.1);
+  color: var(--primary);
+}
+
+.time-slider {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  margin-top: var(--spacing-sm);
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.filter-button {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.filter-button:hover {
+  background: var(--primary);
+  color: white;
+}
