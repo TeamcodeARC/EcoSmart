@@ -4,11 +4,11 @@
 
 ### Large Files
 Due to GitHub file size limitations, the following files are available via Google Drive links:
-- [EcoSmart.pptx](https://drive.google.com/file/your-pptx-link-here)
-- [Electricity_Bill_Predictor/energy_predictor_electricity.joblib](https://drive.google.com/file/your-model-link-here)
+- [EcoSmart.pptx](https://docs.google.com/presentation/d/1manx4trHTAdXwWMf2L5Fe6qxrtpiCLJ9/edit?usp=sharing&ouid=100468106624143863189&rtpof=true&sd=true)
+- [Electricity_Bill_Predictor/energy_predictor_electricity.joblib](https://drive.google.com/file/d/1FKdF7dgLlHa3fjCm2GLTa6jlB6PZNdll/view?usp=sharing)
 
 ### Project Demo
-The full project demonstration is available on YouTube: [Watch Demo](https://youtube.com/your-video-link-here)
+The full project demonstration is available on YouTube: [Watch Demo](https://www.youtube.com/watch?v=Vz3cn7UTOgY)
 
 ## Available Scripts
 
