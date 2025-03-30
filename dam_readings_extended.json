@@ -1,0 +1,401 @@
+[
+  {
+    "timestamp": "2024-03-29T10:00:00",
+    "waterLevel": 45.2,
+    "flowRate": 120.5,
+    "releaseRate": 80.0,
+    "precipitation": 0.5
+  },
+  {
+    "timestamp": "2024-03-29T11:00:00",
+    "waterLevel": 45.5,
+    "flowRate": 125.0,
+    "releaseRate": 85.0,
+    "precipitation": 0.7
+  },
+  {
+    "timestamp": "2024-03-29T14:00:00",
+    "waterLevel": 45.2,
+    "flowRate": 131.6,
+    "releaseRate": 91.3,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-29T17:00:00",
+    "waterLevel": 46.1,
+    "flowRate": 134.4,
+    "releaseRate": 92.4,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-29T20:00:00",
+    "waterLevel": 47.9,
+    "flowRate": 133.9,
+    "releaseRate": 98.1,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-03-29T23:00:00",
+    "waterLevel": 49.3,
+    "flowRate": 131.6,
+    "releaseRate": 91.7,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-03-30T02:00:00",
+    "waterLevel": 49.3,
+    "flowRate": 134.9,
+    "releaseRate": 99.4,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-03-30T05:00:00",
+    "waterLevel": 50.7,
+    "flowRate": 130.8,
+    "releaseRate": 113.9,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-03-30T08:00:00",
+    "waterLevel": 51.7,
+    "flowRate": 132.9,
+    "releaseRate": 123.6,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-30T11:00:00",
+    "waterLevel": 53.6,
+    "flowRate": 130.0,
+    "releaseRate": 119.4,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-03-30T14:00:00",
+    "waterLevel": 52.9,
+    "flowRate": 129.8,
+    "releaseRate": 113.2,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-03-30T17:00:00",
+    "waterLevel": 51.9,
+    "flowRate": 128.5,
+    "releaseRate": 117.4,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-30T20:00:00",
+    "waterLevel": 53.7,
+    "flowRate": 137.3,
+    "releaseRate": 123.4,
+    "precipitation": 1.4
+  },
+  {
+    "timestamp": "2024-03-30T23:00:00",
+    "waterLevel": 53.4,
+    "flowRate": 142.9,
+    "releaseRate": 130.7,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-31T02:00:00",
+    "waterLevel": 53.8,
+    "flowRate": 156.1,
+    "releaseRate": 141.2,
+    "precipitation": 1.9
+  },
+  {
+    "timestamp": "2024-03-31T05:00:00",
+    "waterLevel": 52.6,
+    "flowRate": 152.9,
+    "releaseRate": 136.0,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-03-31T08:00:00",
+    "waterLevel": 54.8,
+    "flowRate": 153.7,
+    "releaseRate": 136.3,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-31T11:00:00",
+    "waterLevel": 56.8,
+    "flowRate": 151.7,
+    "releaseRate": 135.1,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-31T14:00:00",
+    "waterLevel": 56.0,
+    "flowRate": 154.3,
+    "releaseRate": 143.1,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-31T17:00:00",
+    "waterLevel": 57.0,
+    "flowRate": 153.1,
+    "releaseRate": 137.7,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-03-31T20:00:00",
+    "waterLevel": 58.0,
+    "flowRate": 147.2,
+    "releaseRate": 130.8,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-03-31T23:00:00",
+    "waterLevel": 59.7,
+    "flowRate": 144.1,
+    "releaseRate": 128.2,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-01T02:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 150.3,
+    "releaseRate": 134.6,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-01T05:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 148.7,
+    "releaseRate": 137.8,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-01T08:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 153.4,
+    "releaseRate": 135.4,
+    "precipitation": 0.8
+  },
+  {
+    "timestamp": "2024-04-01T11:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 173.9,
+    "releaseRate": 156.5,
+    "precipitation": 1.7
+  },
+  {
+    "timestamp": "2024-04-01T14:00:00",
+    "waterLevel": 59.9,
+    "flowRate": 181.3,
+    "releaseRate": 164.7,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-04-01T17:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 192.9,
+    "releaseRate": 175.1,
+    "precipitation": 1.1
+  },
+  {
+    "timestamp": "2024-04-01T20:00:00",
+    "waterLevel": 58.8,
+    "flowRate": 193.3,
+    "releaseRate": 177.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-01T23:00:00",
+    "waterLevel": 58.8,
+    "flowRate": 194.5,
+    "releaseRate": 178.3,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-02T02:00:00",
+    "waterLevel": 58.4,
+    "flowRate": 198.4,
+    "releaseRate": 173.9,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-04-02T05:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 204.5,
+    "releaseRate": 184.6,
+    "precipitation": 2.2
+  },
+  {
+    "timestamp": "2024-04-02T08:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 214.3,
+    "releaseRate": 191.9,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-02T11:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 211.4,
+    "releaseRate": 188.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-02T14:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 232.2,
+    "releaseRate": 200.0,
+    "precipitation": 1.2
+  },
+  {
+    "timestamp": "2024-04-02T17:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 235.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-02T20:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 231.5,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-02T23:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 228.4,
+    "releaseRate": 200.0,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-04-03T02:00:00",
+    "waterLevel": 58.9,
+    "flowRate": 232.8,
+    "releaseRate": 200.0,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-03T05:00:00",
+    "waterLevel": 59.1,
+    "flowRate": 237.6,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-03T08:00:00",
+    "waterLevel": 59.6,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.9
+  },
+  {
+    "timestamp": "2024-04-03T11:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 248.4,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-03T14:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 1.7
+  },
+  {
+    "timestamp": "2024-04-03T17:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-03T20:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 2.0
+  },
+  {
+    "timestamp": "2024-04-03T23:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-04T02:00:00",
+    "waterLevel": 59.4,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-04T05:00:00",
+    "waterLevel": 59.1,
+    "flowRate": 244.2,
+    "releaseRate": 200.0,
+    "precipitation": 0.2
+  },
+  {
+    "timestamp": "2024-04-04T08:00:00",
+    "waterLevel": 58.1,
+    "flowRate": 241.7,
+    "releaseRate": 200.0,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-04-04T11:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 246.8,
+    "releaseRate": 200.0,
+    "precipitation": 2.3
+  },
+  {
+    "timestamp": "2024-04-04T14:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.0
+  },
+  {
+    "timestamp": "2024-04-04T17:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 1.9
+  },
+  {
+    "timestamp": "2024-04-04T20:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-04T23:00:00",
+    "waterLevel": 59.9,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 2.1
+  },
+  {
+    "timestamp": "2024-04-05T02:00:00",
+    "waterLevel": 58.5,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  },
+  {
+    "timestamp": "2024-04-05T05:00:00",
+    "waterLevel": 60.0,
+    "flowRate": 250.0,
+    "releaseRate": 200.0,
+    "precipitation": 1.7
+  },
+  {
+    "timestamp": "2024-04-05T08:00:00",
+    "waterLevel": 59.6,
+    "flowRate": 249.6,
+    "releaseRate": 200.0,
+    "precipitation": 0.1
+  }
+]
