@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Binary Hackathon 2025
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Binary Hackathon 2025
+# EcoSmart
 
 ### Large Files
 Due to GitHub file size limitations, the following files are available via Google Drive links:
